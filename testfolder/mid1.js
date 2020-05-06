@@ -5,7 +5,7 @@ for(let i=0; i<100; ++i){
 for(let i=0; i<100;++i){
     if(a[i]>5&&a[i]<9)
         a.splice(i,1)
-        if(a[i]>15&&a[i]>19)
+        if(a[i]>15&&a[i]<19)
         a.splice(i,1)
              if(a[i]>25&&a[i]<29)
                 a.splice(i,1)
